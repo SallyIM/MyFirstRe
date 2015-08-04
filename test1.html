@@ -2,21 +2,36 @@
 <html> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>热身</title>
-	
-	<script src="myjs.js">
-		// document.write("hellohu");
-		// //为什么不能用？
-		// document.getElementById("p1").style.color="blue";
-	</script>
+<title>练习JS</title>
+<script type="text/javascript">
+   document.write("I");
+   document.write("love");
+   document.write("JavaScript");
+</script>
 </head>
 <body>
   <p id="p1">我是第一段文字</p>
   <p id="p2">我是第二段文字</p>
-    
-  // <script type="text/javascript">
-  //   document.write("hello");
-  //   document.getElementById("p1").style.color="blue";	
-  // </script>
+  <p id="p3">my name is p3</p>
+  
+  <script src="myjs.js"></script>
+  <script type="text/javascript">
+    document.write("这个是body里面的JS语句");
+	// document.getElementById("p1").style.color="blue"; 
+  </script>
+  <br>
+  <input id="in1" type="button" value="点我" onclick="out1()"></input>
+  <input id="in2" type="button" value="alert" onclick="alert1()"></input>
+  <input id="in3" type="button" value="confirm" onclick="confirm1()"></input>
+  <input id="in4" type="button" value="prompt" onclick="pro1()"></input>
+  <input id="in5" type="button" value="open a new window" onclick="op1()"></input>
+  <input id="in6" type="button" value="close a new window" onclick="clo1()"></input>
+  <input id="in7" type="button" value="getElementById" onclick="get1()"></input>
+  <input id="in8" type="button" value="改变P3的内容" onclick="inn1()"></input>
+  <input id="in9" type="button" value="change style of p3" onclick="ch1()"></input>
+  <input id="in10" type="button" value="隐藏P3" onclick="hidep3()"></input>
+  <input id="in11" type="button" value="显示P3" onclick="showp3()"></input>
+
+  
 </body>
 </html>
